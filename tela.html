@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title> Reserva Hotel </title>
+	</head>
+
+	<body bgcolor="LightGrey"> 
+		<p align="center"><img src="ImagemHotel.jpg"  width="200" height="100" border="3">
+<!-- Título  !-->
+		<marquee  behavior="slide"scrollamount="50"width="95%"direction="center"loop="2">
+		<font color="black" face="roboto" size="30">
+		<p align="center">
+		Reserva Hotel 
+		</p></font>
+		</marquee>
+		<hr><p>
+		
+		<form  method="post" align="center" >
+		<fieldset  style="-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;" >
+			<font color="Black" size="4"><h3>Dados Pessoais</h3></font><p>
+			
+				<table align="center">
+					<td>*Nome: <input type="text" name="txt1" value="" size="30" maxlength="50" placeholder="Ex. Maria Júlia..." required></td>
+					<td>CPF: <input type="text" name="txt2" value="" placeholder="000.000.000-00" size="20" maxlength="50"></td>
+				<tr>
+					<td>*E-mail: <input type="text" name="txt3" value="" size="30" maxlength="50" placeholder="Ex.maria@gmail.com " required></td>
+					<td>RG: <input type="text" name="txt2" value="" placeholder="00.000.000/0" size="20" maxlength="50"></td>
+				</tr>
+				</table><p>	
+				
+				Número de telefoe:<input type="text" name="txt2" value="" placeholder="(00)00000-0000" size="11" maxlength="30"><p>
+				
+				Sexo:
+				<input type="radio" name="rd1" value="m"> Masculino 
+				<input type="radio" name="rd1" value="f"> Feminino
+				<input type="radio" name="rd1" value="o"> Outros
+				<p>
+				
+				<font color="Black" size="4"><h3>Dados do(a) Acompanhante</h3></font><p>
+				<table align="center">
+					<td>Nome: <input type="text" name="txt1" value="" size="20" maxlength="50" placeholder="Ex. Maria Júlia..." ></td>
+					<td>CPF: <input type="text" name="txt2" value="" placeholder="000.000.000-00" size="12" maxlength="50"></td>
+				<tr>
+					<td>E-mail: <input type="text" name="txt3" value="" size="20" maxlength="50" placeholder="Ex.maria@gmail.com "></td>
+					<td>RG: <input type="text" name="txt2" value="" placeholder="00.000.000/0" size="11" maxlength="50"></td>
+				</tr>
+				</table><p>	
+				
+				Número de telefoe:<input type="text" name="txt2" value="" placeholder="(00)00000-0000" size="11" maxlength="30"><p>
+				
+				Sexo:
+				<input type="radio" name="rd1" value="m"> Masculino 
+				<input type="radio" name="rd1" value="f"> Feminino
+				<input type="radio" name="rd1" value="o"> Outros
+				<p>
+				
+		</fieldset ><p>
+		
+		<fieldset  style="-moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius:10px;" >
+				<font color="Black" size="4"><h3>Tipos de Reservas</h3></font><p>
+					<table align="center">
+					<tr>
+						<td>Acomodações: <select name="lista0" size="1">
+						<option selected>Simples</option>
+						<option>Duplo</option>
+						<option>Premium</option>
+						<option>Suíte</option>
+						<option>Familiar</option></select></td>
+						
+						<td>Forma de Pagamento: <select name="lista1" size="1">
+						<option selected>Dinheiro</option>
+						<option>PIX</option>
+						<option>Cartão de crédito</option>
+						<option>Cartão de débito</option>
+						<option>Boleto</option>
+						</select></td>
+					<tr><p>
+					</table>
+					<p>
+		
+						<b>*Check-in</b><br>
+					    Data: <input type="date" placeholder="Ex. email_email@hotmail.com" required="">
+						Horário: <input type="time" id="appt" name="appt" min="09:00" max="18:00" required><p>
+						
+						<b>*Check-out</b><br>
+					    Data: <input type="date" placeholder="Ex. email_email@hotmail.com" required="">
+						Horário: <input type="time" id="appt" name="appt" min="09:00" max="18:00" required><p>
+			</fieldset><p>
+			
+			<fieldset style="-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;">
+		
+				<font color="Black" size="4"><h3>Segurança</h3></font><p>
+					Crie sua senha: 
+					<input type="password" name"senha" size"15" placeholder="***..."><p>
+					Confirme sua senha:
+					<input type="password" name"senha" size"15" placeholder="***..."><p>
+				</fieldset><p>
+		
+			<fieldset style="-moz-border-radius: 10px;-webkit-border-radius: 10px; border-radius:10px;">
+			<font color="Black" size="4">
+			<h3>Revisão de Dados</h3></font><p>
+				<li>Certifique-se que todos os campos marcados com (*) estejam preenchidos corretamente.</li><p>
+				<li>Clique no botão "Confirmar Reserva" para finalizar a reserva.</li><p>
+				<li>Em caso de dúvidas,reclamações ou feedbacks deixe seu comentário na caixa de texto, pois em breve retornaremos o contato.</li><p>
+			
+			<table align="center">
+				<tr>
+					<textarea name="Comentários" rows=3 cols=50>Deixe seu comentário aqui...
+					</textarea><p>
+					<td>
+						<input type="submit" name="bt1" align="center" value="Confirmar Reserva">
+					</td>
+				</tr>
+			</table>
+		
+		</form>
+		
+	</body>
+</html>	
